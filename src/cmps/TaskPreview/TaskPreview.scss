@@ -1,0 +1,28 @@
+.task-preview {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 1px #8d878780;
+  width: 280px;
+  margin-bottom: 30px;
+  background-color: lightblue;
+  cursor: pointer;
+
+  img {
+    width: 100px;
+  }
+
+  .preview-txt {
+    padding-inline-start: 10px;
+    text-align: left;
+  }
+
+  .preview-txt p {
+    padding-top: 10px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: brown;
+}
